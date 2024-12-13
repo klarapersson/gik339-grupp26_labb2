@@ -1,0 +1,36 @@
+body {
+  background-color: #f7f2eb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; /* Centrera hela listan horisontellt */
+}
+
+li {
+  height: 200px;
+  width: 300px;
+  margin: 10px auto; /* Centrera varje ruta horisontellt */
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.1s ease;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  font-family: "abril-fatface", serif;
+  font-style: italic;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #f7f2eb;
+}
+
+p {
+  font-family: futura-pt, sans-serif;
+  font-size: 1.1rem;
+  color: #f7f2eb;
+}
